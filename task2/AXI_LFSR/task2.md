@@ -12,7 +12,7 @@ The project supports an **AXI-Lite interface** for LFSR configuration and an **A
 
 ## **Module Descriptions**
 
-### **1. AXI RAM (`axi_ram.v`)**
+### **1. AXI RAM (`ramnew.v`)**
 - Stores data received via **AXI-Stream**.
 - Detects **duplicate values** and avoids redundant storage.
 - Computes **memory addresses** dynamically.
@@ -129,7 +129,7 @@ Each input packet consists of:
 
 ---
 
-## **Testbench (`top_module_tb.v`)**
+## **Testbench (`tbnew.v`)**
 - Simulates the **full system**.
 - Configures **LFSR via AXI-Lite**.
 - Monitors **RAM outputs via AXI-Stream**.
