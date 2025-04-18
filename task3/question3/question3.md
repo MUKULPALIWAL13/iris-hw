@@ -1,4 +1,4 @@
-# 🧠 Task 3 – Virtual Memory and User Program Execution (Bare-metal on Raspberry Pi 2B)
+# Task 3 – Virtual Memory and User Program Execution (Bare-metal on Raspberry Pi 2B)
 
 This project demonstrates a **bare-metal OS kernel** on **Raspberry Pi 2B (ARMv7-A)** that sets up **virtual memory using the MMU**, enforces **privilege-level separation**, and executes a **user-mode program** via `svc` system calls.
 
