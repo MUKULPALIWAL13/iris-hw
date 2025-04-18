@@ -1,4 +1,4 @@
-# 🧪 Task 1 – UART-Based Serial Output in EL1
+#  Task 1 – UART-Based Serial Output in EL1
 
 ## 📌 Objective
 
@@ -11,7 +11,7 @@ Build a **bare-metal kernel** for the **Raspberry Pi Model B (QEMU-emulated)** t
 
 ---
 
-## 🧠 Core Concepts
+##  Core Concepts
 
 - **EL1**: All operations are executed in *privileged mode*.
 - **MMIO**: Registers like UART control/status/data are accessed directly via memory addresses.
